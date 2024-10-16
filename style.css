@@ -477,9 +477,6 @@ section {
     padding: 4px 0 0 5px;
     width: 20px;
   }
-  .container-three-right img {
-    width: 90%;
-  }
   .feature {
     padding-top: 4%;
     padding-bottom: 9%;
@@ -656,9 +653,6 @@ section {
   }
   .container-three-right {
     align-self: center;
-  }
-  .container-three-right img {
-    width: 85%;
   }
   .feature {
     padding-top: 4%;
@@ -850,7 +844,7 @@ section {
     align-self: center;
   }
   .container-three-right img {
-    width: 85%;
+    width: 100%;
   }
   .container-three-left-link img {
     padding: 2px 0 0 5px;
@@ -1008,6 +1002,7 @@ section {
   }
   .container-three {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
   .container-three-left h2 {
     font-size: 20px;
@@ -1044,8 +1039,8 @@ section {
     width: 18px;
   }
   .container-three-right img {
-    width: 80%;
-    padding: 30px 0 25px 120px;
+    width: 100%;
+    padding: 0 20px;
   }
   .feature {
     padding-top: 4%;
@@ -1226,6 +1221,10 @@ section {
     padding: 2px 0 0 5px;
     width: 15px;
   }
+  .container-three-right img {
+    width: 100%;
+    padding: 0 20px;
+  }
   .feature {
     padding-top: 4%;
     padding-bottom: 9%;
@@ -1247,12 +1246,12 @@ section {
   .feature-point {
     padding-top: 5%;
     gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
   }
   .footer-left {
     display: none;
   }
   .container-three-right img {
-    width: 80%;
     padding: 30px 0 25px 20px;
   }
   .footer-right {
