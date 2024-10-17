@@ -9,6 +9,7 @@ section {
 .hero {
   background: linear-gradient(216.04deg, #27c0ef 13.84%, #00a8db 83.53%);
   width: 100%;
+  padding-bottom: 30px;
 }
 .navbar {
   display: flex;
@@ -50,8 +51,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 1rem;
-  position: relative;
+  gap: 2rem;
 }
 .hero-left {
   display: block;
@@ -77,6 +77,8 @@ section {
   display: flex;
   align-items: center;
   padding-top: 10px;
+  gap: 2rem;
+  margin-top: 30px;
 }
 .left-link a {
   background: white;
@@ -88,7 +90,6 @@ section {
   color: rgba(0, 168, 219, 1);
 }
 .right-link {
-  padding: 60px;
   display: flex;
   align-items: center;
 }
@@ -126,19 +127,18 @@ section {
   padding: 7% 0 3% 0;
   display: flex;
   justify-content: space-between;
+  background-image: url(images/vector-2.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 40%;
 }
 .container-two-left {
-  position: relative;
   flex-basis: 50%;
-}
-.background-img {
-  width: 100%;
+  padding: 20px;
 }
 .foreground-img {
   width: 100%;
-  position: absolute;
-  right: 0px;
-  top: -20px;
 }
 .container-two-right {
   padding-top: 30px;
@@ -392,9 +392,6 @@ section {
     font-size: 13px;
     padding: 14px 25px;
   }
-  .right-link {
-    padding: 40px;
-  }
   .right-link a {
     font-size: 13px;
   }
@@ -411,17 +408,7 @@ section {
   }
   .container-two {
     padding: 5% 0 2% 0;
-  }
-  .background-img {
-    width: 70%;
-  }
-  .foreground-img {
-    width: 80%;
-    right: 50px;
-    top: -20px;
-  }
-  .container-two-right {
-    padding-top: 10px;
+    background-size: 30%;
   }
   .container-two-right h2 {
     font-size: 28px;
@@ -562,9 +549,6 @@ section {
     font-size: 13px;
     padding: 10px 15px;
   }
-  .right-link {
-    padding: 20px;
-  }
   .right-link a {
     font-size: 12px;
   }
@@ -581,20 +565,7 @@ section {
   }
   .container-two {
     padding: 6.7% 0 2.7% 0;
-  }
-  .container-two-left {
-    max-width: 100%;
-  }
-  .background-img {
-    width: 60%;
-    top: -20px;
-  }
-  .foreground-img {
-    width: 70%;
-    right: 50px;
-  }
-  .container-two-right {
-    padding-top: 10px;
+    background-size: 25%;
   }
   .container-two-right h2 {
     font-size: 24px;
@@ -750,9 +721,6 @@ section {
     font-size: 10px;
     padding: 10px 15px;
   }
-  .right-link {
-    padding: 30px;
-  }
   .right-link a {
     font-size: 10px;
   }
@@ -769,21 +737,6 @@ section {
   }
   .container-two {
     padding: 4% 0 2% 0;
-  }
-  .container-two-left {
-    max-width: 100%;
-  }
-  .background-img {
-    width: 65%;
-    top: -20px;
-  }
-  .foreground-img {
-    width: 75%;
-    right: 60px;
-    left: 40px;
-  }
-  .container-two-right {
-    padding-top: 10px;
   }
   .container-two-right h2 {
     font-size: 20px;
@@ -934,9 +887,6 @@ section {
     font-size: 11px;
     padding: 10px 15px;
   }
-  .right-link {
-    padding: 30px;
-  }
   .right-link a {
     font-size: 11px;
   }
@@ -958,21 +908,8 @@ section {
   .container-two {
     display: block;
     padding: 10% 0 5% 0;
-  }
-  .background-img {
-    width: 50%;
-    top: -20px;
-  }
-  .foreground-img {
-    width: 65%;
-    right: 60px;
-    left: 40px;
-  }
-  .container-two-left {
-    padding-top: 10px;
-  }
-  .container-two-right {
-    padding-top: 10px;
+    background-image: unset;
+    align-content: center;
   }
   .container-two-right h2 {
     font-size: 20px;
@@ -1132,9 +1069,6 @@ section {
     font-size: 10px;
     padding: 8px 13px;
   }
-  .right-link {
-    padding: 20px;
-  }
   .right-link a {
     font-size: 11px;
   }
@@ -1151,6 +1085,7 @@ section {
   }
   .container-two {
     padding: 4% 0 5% 0;
+    background-image: unset;
   }
   .container-two-right {
     padding-top: 10px;
@@ -1183,9 +1118,6 @@ section {
   }
   .container-three {
     grid-template-columns: 1fr;
-  }
-  .container-two-left {
-    margin-top: 30px;
   }
   .container-three-left h2 {
     font-size: 20px;
